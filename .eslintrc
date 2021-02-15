@@ -26,8 +26,6 @@
 				"ignoreComments": false,
 				"ignoreUrls": true
 			}
-		],
-		"eslint-comments/no-unused-disable": "warn",
-		"eslint-comments/no-unlimited-disable": "error",
+		]
 	}
 }
