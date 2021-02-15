@@ -16,7 +16,7 @@
 		"style": "npm run prettier && npm run lint:fix",
 		"prettier": "prettier --write \"src/*\"",
 		"prettier:dry": "prettier --check \"src/*\"",
-		"lint": "eslint \"src/*\" -f table",
+		"lint": "eslint \"src/*\" --cache -f table",
 		"lint:fix": "eslint \"src/*\" --fix"
 	},
 	"repository": {
@@ -54,6 +54,6 @@
 		"typescript": "^4.1.5"
 	},
 	"lint-staged": {
-		"*.ts": "eslint --cache --fix"
+		"*.ts": "npm run style"
 	}
 }
