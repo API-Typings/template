@@ -34,8 +34,10 @@
 		"url": "https://github.com/API-Typings/template/issues"
 	},
 	"homepage": "https://github.com/API-Typings/template#readme",
+	"dependencies": {
+		"@api-typings/core": "^1.0.3"
+	},
 	"devDependencies": {
-		"@api-typings/core": "^1.0.3",
 		"@commitlint/cli": "^11.0.0",
 		"@commitlint/config-conventional": "^11.0.0",
 		"@microsoft/tsdoc-config": "^0.14.0",
