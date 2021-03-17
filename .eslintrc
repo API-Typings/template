@@ -52,7 +52,7 @@
 		"@typescript-eslint/no-unnecessary-type-constraint": "error",
 		"@typescript-eslint/type-annotation-spacing": "error",
 		"@typescript-eslint/unified-signatures": "warn",
-		"@typescript-eslint/naming-conventions": [
+		"@typescript-eslint/naming-convention": [
 			"error",
 			{
 				"selector": [
@@ -62,7 +62,9 @@
 					"typeAlias",
 					"typeParameter"
 				],
-				"format": "PascalCase",
+				"format": [
+					"PascalCase"
+				],
 				"leadingUnderscore": "forbid",
 				"trailingUnderscore": "forbid"
 			}
