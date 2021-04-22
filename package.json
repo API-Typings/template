@@ -56,7 +56,7 @@
 		"*.ts": "npm run style"
 	},
 	"dependencies": {
-		"extended-utility-types": "^1.12.0"
+		"extended-utility-types": "^1.15.0"
 	},
 	"publishConfig": {
 		"access": "public"
